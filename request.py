@@ -33,6 +33,6 @@ if __name__ == '__main__':
     # Получить путь к загружаемому файлу и токен от пользователя
     file = 'unexpected_true.png'
     path_to_file = 'unexpected_true.png'
-    token = "AQAAAABYTSUWAADLW3qPZXyEs02zqT1NDcOfHfs"
+    token = ""
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file, file)
